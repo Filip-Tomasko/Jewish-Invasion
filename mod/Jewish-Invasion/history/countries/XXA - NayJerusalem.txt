@@ -1,0 +1,41 @@
+government = prussian_monarchy
+government_rank = 1
+primary_culture = hebrew
+religion = jewish
+technology_group = western
+capital = 236 # London
+add_army_professionalism = 0.05
+
+1444.1.1 = {
+	monarch = {
+		name = "Filip"
+		dynasty = "von David"
+		birth_date = 1425.12.30
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = expansionist_personality
+	add_ruler_personality = scholar_personality
+	heir = {
+		name = "Boleslaw"
+		monarch_name = "Filip"
+		dynasty = "von David"
+		birth_date = 1444.4.20
+		claim = 100
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+	queen = {
+		country_of_origin = TYO # Daniel eig XXB
+		name = "Ruth"
+		dynasty = "von David"
+		birth_date = 1430.1.1
+		female = yes
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

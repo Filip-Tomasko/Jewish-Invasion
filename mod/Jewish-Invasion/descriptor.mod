@@ -6,5 +6,5 @@ tags={
 	"New Nations"
 	"Religion"
 }
-name="Jewish Invasion"
+name="Jewish-Invasion"
 supported_version="1.31.3"
