@@ -1,5 +1,0 @@
-# Mission Ideas
-
-## Filip
-
-## Daniel
