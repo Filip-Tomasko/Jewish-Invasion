@@ -1,0 +1,14 @@
+#366 - The Canarias
+
+owner = XXA
+controller = XXA
+culture = hebrew
+religion = jewish
+is_city = yes
+add_core = XXA
+capital = "Las Palmas"
+trade_goods = iron
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 1

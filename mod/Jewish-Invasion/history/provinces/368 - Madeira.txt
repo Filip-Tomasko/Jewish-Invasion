@@ -1,0 +1,13 @@
+#368 - Madeira
+
+owner = XXA
+controller = XXA
+culture = hebrew
+religion = jewish
+capital = "Funchal"
+trade_goods = iron
+is_city = yes
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 1
