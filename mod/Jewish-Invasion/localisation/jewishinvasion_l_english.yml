@@ -1,7 +1,11 @@
 ﻿l_english:
+  # Culture Group
   true_slavic: "Yiddish"
+
+  # Nay Jerusalem
   XXA: "Nay Jerusalem"
   XXA_ADJ: "Superior"
+  ## Nay Jerusalem Ideas
   XXA_ideas: "Superior Ideas"
   XXA_ideas_start: "Jewish Colonial Superpower"
   XXA_ideas_bonus: "Jewish Paperwork"
@@ -19,3 +23,10 @@
   xxa_6_desc: "We do what God tells us"
   xxa_7: "It's not stealing"
   xxa_7_desc: "It really is not stealing"
+  ## Nay Jerusalem Missions
+  xxa_missions: "Superior Mission Tree"
+  xxa_1_1_title: "Jewish Brothers"
+  xxa_1_1_desc: "The Israeli are our only remaining brothers in faith. It is our duty to secure an alliance with them"
+  xxa_1_1_mod: "Jewish Reputation"
+  xxa_1_2_title: "Lesb"
+  xxa_1_2_desc: "The Lesbian"
