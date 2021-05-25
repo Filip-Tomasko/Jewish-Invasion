@@ -7,6 +7,11 @@ xxa_1_1_mod = {
 	diplomatic_reputation = 1
 }
 
+xxa_2_2_mod = {
+	tolerance_own = 2
+	tolerance_heathen = -2
+}
+
 #Generic Military Mission Rewards:
 
 thriving_arms_industry = {

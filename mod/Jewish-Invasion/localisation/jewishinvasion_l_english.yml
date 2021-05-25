@@ -24,9 +24,18 @@
   xxa_7: "It's not stealing"
   xxa_7_desc: "It really is not stealing"
   ## Nay Jerusalem Missions
-  xxa_missions: "Superior Mission Tree"
+  ### x=1
   xxa_1_1_title: "Jewish Brothers"
   xxa_1_1_desc: "The Israeli are our only remaining brothers in faith. It is our duty to secure an alliance with them"
   xxa_1_1_mod: "Jewish Reputation"
   xxa_1_2_title: "Lesb"
   xxa_1_2_desc: "The Lesbian"
+  ### x=2
+  xxa_2_1_title: "Jewish Ireland"
+  xxa_2_1_desc: "The Irish are a threat to our existence. We must conquer their lands"
+  xxa_2_2_title: "United Britain"
+  xxa_2_2_desc: "It is our duty to convince the British heathens of the true religion"
+  xxa_2_2_mod: "Jewish Britain"
+  ### x=3
+  xxa_3_1_title: "Jewish Cornwall"
+  xxa_3_1_desc: "Border gore. We are a snake. Cornwall will make reduce the border gore"

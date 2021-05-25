@@ -1,8 +1,9 @@
 # https://youtu.be/1e6GnjYtuNA?list=PLt_7vUaEvaGRQLDh1zRkwiYjISoRniu_n
 # https://eu4.paradoxwikis.com/Conditions
 # https://eu4.paradoxwikis.com/Commands
+# https://eu4.paradoxwikis.com/List_of_common_mission_triggers
 
-xxa_missions = {
+xxa_missions_1 = {
 	slot = 1 #upper left column
 	generic = no #if a mission without generic = yes wants this slot then it overrides this.
 	ai = yes
@@ -37,6 +38,219 @@ xxa_missions = {
 		}
 		effect = {
 			add_treasury = 50
+		}
+	}
+}
+
+xxa_missions_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		NOT = { map_setup = map_setup_random }
+		tag = XXA
+	}
+	has_country_shield = yes
+
+	xxa_2_1 = {
+		icon = mission_alliances
+		required_missions = {  } #None
+		position = 1
+
+		provinces_to_highlight = {
+			OR = {
+				area = ulster_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 1 # how many provinces should be owned in the areas below
+				OR = {
+					area = ulster_area # this can also be region or colonial region
+				}
+			}
+		}
+
+		effect = {
+			add_treasury = 50
+			add_adm_power = 50
+			ulster_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			leinster_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			connacht_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			munster_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	xxa_2_2 = {
+		icon = mission_empire
+		required_missions = {xxa_2_1 xxa_3_1}
+		position = 2
+
+		provinces_to_highlight = {
+			OR = {
+				region = british_isles_region
+			}
+		}
+
+		trigger = {
+			calc_true_if = {
+				amount = 56 # number of provinces in Britain... see area.txt ... is there really no better
+				all_province = {
+					region = british_isles_region
+					owner = {
+						religion = jewish
+					}
+				}
+			}
+		}
+		effect = {
+			add_prestige = 50
+			add_adm_power = 100
+			add_dip_power = 100
+			add_mil_power = 100
+
+			add_country_modifier = {
+				name = "xxa_2_2_mod"
+				duration = -1
+			}
+		}
+	}
+}
+
+xxa_missions_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		NOT = { map_setup = map_setup_random }
+		tag = XXA
+	}
+	has_country_shield = yes
+
+	xxa_3_1 = {
+		icon = mission_alliances
+		required_missions = {  } #None
+		position = 1
+
+		provinces_to_highlight = {
+			OR = {
+				area = wessex_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+
+		trigger = {
+			wessex_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			add_treasury = 50
+			add_adm_power = 50
+			wessex_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			east_anglia_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			east_midlands_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			highlands_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			home_counties_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			lowlands_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			scottish_marches_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			kingdom_of_the_isles_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			wales_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			west_midlands_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			yorkshire_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
 		}
 	}
 }
