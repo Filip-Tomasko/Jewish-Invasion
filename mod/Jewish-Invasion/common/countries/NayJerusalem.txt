@@ -10,6 +10,10 @@ monarch_names = {
 	"Kazimierz" = 25
 	"Szymon" = 25
 	"Boleslaw" = 25
+	"Waclaw" = 1
+	"Cyprian" = 1
+	"L U K A S" = 1
+	"P A S S I" = 1
 
 	"Gaya" = -1
 	"Big Gaya" = -1
@@ -18,9 +22,13 @@ monarch_names = {
 }
 
 leader_names = {
-	Gay Gaylord "von Gay" Biggus "Biggus Dickus" Schwanzus "Extremus Biggus Dickus"
+	Gay Gaylord "von Gay" Biggus "Biggus Dickus" Schwanzus "Extremus"
 }
 
 army_names = {
-	"Regiments of $PROVINCE$"
+	"A of $PROVINCE$"
+}
+
+fleet_names = {
+	"F of $PROVINCE$"
 }
