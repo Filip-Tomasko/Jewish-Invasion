@@ -21,6 +21,20 @@ add_army_professionalism = 0.05
 	add_ruler_personality = scholar_personality
 }
 
+1444.1.2 = {
+	queen = {
+		name = "Ruth"
+		dynasty = "von David"
+		female = yes
+		country_of_origin = "OPL"
+		birth_date = 1430.1.19
+		death_date = 1716.3.1
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+
 1444.5.3 = {
 	heir = {
 		name = "Boleslaw"
