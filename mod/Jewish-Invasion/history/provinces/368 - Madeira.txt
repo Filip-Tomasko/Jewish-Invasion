@@ -4,6 +4,7 @@ owner = XXA
 controller = XXA
 culture = hebrew
 religion = jewish
+add_core = XXA
 capital = "Funchal"
 trade_goods = iron
 is_city = yes

@@ -2,7 +2,8 @@
 
 graphical_culture = africangfx
 
-color = { 231 76 60 }
+color = { 138  193  231 }
+revolutionary_colors = { 0 15 0 }
 
 monarch_names = {
 	"Filip" = 25
