@@ -5,6 +5,7 @@
 # Jewish Invasion
 xxa_1_1_mod = {
 	diplomatic_reputation = 1
+	global_missionary_strength = 0.01
 }
 
 xxa_2_2_mod = {

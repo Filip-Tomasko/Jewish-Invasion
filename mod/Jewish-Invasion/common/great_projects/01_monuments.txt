@@ -4664,6 +4664,10 @@ alhambra = {
 				religion_group = christian
 				has_owner_religion = yes
 			}
+			AND = {
+				religion = jewish
+				has_owner_culture = yes
+			}
 		}
 	}
 
@@ -4677,6 +4681,10 @@ alhambra = {
 			AND = {
 				religion_group = christian
 				has_owner_religion = yes
+			}
+			AND = {
+				religion = jewish
+				has_owner_culture = yes
 			}
 		}
 	}
