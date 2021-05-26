@@ -118,13 +118,11 @@ xxa_missions_2 = {
 		}
 
 		trigger = {
-			calc_true_if = {
-				amount = 56 # number of provinces in Britain... see area.txt ... is there really no better
-				all_province = {
-					region = british_isles_region
-					owner = {
-						religion = jewish
-					}
+			# https://forum.paradoxplaza.com/forum/threads/euiv-modding-quick-questions-thread.708855/post-27566221
+			british_isles_region = {
+				type = all
+				owner = {
+					religion = jewish
 				}
 			}
 		}
