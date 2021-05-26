@@ -20,7 +20,7 @@
   - -> perm claims on areas Ulster, Leinster, Connacht, Munster
 - [x] own core all provinces in Wessex area
   - -> perm claims on all English and Scottish areas
-- [ ] have >50% trade power in all chinese trade nodes + all provinces in chinese regions are jewish (dont have to be owned by me) (mission_to_china icon)
+- [x] have >50% trade power in all chinese trade nodes + all provinces in chinese regions are jewish (dont have to be owned by me) (mission_to_china icon)
   - -> idk
 - [x] "Manifest Destiny"? - idk have one colonial nation
   - -> Modifier till end of game: +20 Settlers, +20% Settler Chance?
@@ -92,8 +92,8 @@ It is our duty to secure an alliance with them
   - have colonial nation in Australia; more than 50% trade power in the Philippines, Australia and Polynesian Triangle
   - perms claims on Japan, Korea, Manchura, Mongolia, North China, South China, Xinan, Tibet, Indochina regions; Modifier "Pacific Trade" till end: Adm Eff -5%, Missionary Strength +1%
 
-- [ ] (4,5) / East Asian Dominance / We must free the citizens of eastern Asia from their oppressive regims by conquering their lands and teaching them about the one and only true religion / (4,4)
-  - more than 50% trade power in Nippon, Girin, Beijing, Hangzhou, Canton, Xi'an, Chengdu, Lhasa, Siam; own core + convert all provinces in these (see (4,4) claims) regions
+- [ ] (4,5) / East Asian Dominance / We must free the citizens of eastern Asia from their oppressive regims by conquering their lands and teaching them about the one and only true religion / (4,4) / mission_to_china icon
+  - more than 50% trade power in Nippon, Girin, Beijing, Hangzhou, Canton, Xi'an, Chengdu, Lhasa, Siam; all provinces in these (see (4,4) claims) regions have to be Jewish (don't have to be owned by me)
   - +100 Prestige; +3 Stability; +400 Adm/Dip/Mil; Modifier "East Asian Dominance" till end: Missionary Strength +2%, local dev cost -20%, core-creation cost -20%, cult conv cost -20%, trade efficiency +20%, trade steering +20%, national unrest -2
 
 ### x = 5
@@ -115,7 +115,7 @@ It is our duty to secure an alliance with them
   - perms claims on Coromandel, Deccan, Bengal, Western India, Hindustan and Burma regions; Modifier "Indian Riches" till end: -10% core-creation cost, +1% missionary strength
 
 - [ ] (5,5) / Indian Dominance / After witnessing the riches of Indian soil we have to conquer the lands to administer them properly
-  - own + convert all provinces in regions from (5,4) claims
+  - +50% trade power in all Indian trade nodes; all provinces in these (see (5,4) claims) regions have to be Jewish (don't have to be owned by me)
   - +100 prestige; +3 stability; +200 adm/dip/mil; Modifier "Indian Dominance" till end: Domestic trade power +20%, lcoal dev cost -20%
 
 ## Daniel
