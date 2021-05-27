@@ -30,14 +30,47 @@ xxa_missions_1 = {
 		}
 	}
 	xxa_1_2 = {
-		icon = mission_empire
+		icon = mission_develop_alhambra
 		required_missions = { xxa_1_1 }
 		position = 2
 
+		provinces_to_highlight = {
+			OR = {
+				province_id = 223  # Alhambra
+				province_id = 4568  # Ait Benhaddou
+			}
+			NOT = { owned_by = ROOT }
+		}
+
 		trigger = {
+			AND = {
+				owns_core_province = 223
+				owns_core_province = 4568
+			}
+			223 = {
+				has_great_project = {
+					type = alhambra
+					tier = 3
+				}
+			}
+			4568 = {
+				has_great_project = {
+					type = ait_benhaddou
+					tier = 3
+				}
+			}
+
 		}
 		effect = {
-			add_treasury = 50
+			add_prestige = 50
+			add_adm_power = 100
+			add_dip_power = 100
+			add_mil_power = 100
+			add_country_modifier = {
+				name = "xxa_1_2_mod"
+				duration = -1
+			}
+
 		}
 	}
 }

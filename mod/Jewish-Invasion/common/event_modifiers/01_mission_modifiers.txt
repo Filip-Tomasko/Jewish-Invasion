@@ -3,14 +3,58 @@
 ##################################################################################################
 
 # Jewish Invasion
+## XXA Missions
 xxa_1_1_mod = {
 	diplomatic_reputation = 1
 	global_missionary_strength = 0.01
 }
 
+xxa_1_2_mod {
+	reduced_liberty_desire = -10
+	administrative_efficiency = -0.05
+	caravan_power = 0.05
+	global_trade_power = 0.01
+}
+
 xxa_2_2_mod = {
 	tolerance_own = 2
 	tolerance_heathen = -2
+}
+
+xxa_3_3_mod {
+
+}
+
+xxa_3_5_mod {
+
+}
+
+xxa_4_2_mod {
+
+}
+
+xxa_4_3_mod {
+
+}
+
+xxa_4_4_mod {
+
+}
+
+xxa_4_5_mod {
+
+}
+
+xxa_5_1_mod {
+
+}
+
+xxa_5_4_mod {
+
+}
+
+xxa_5_5_mod {
+
 }
 
 #Generic Military Mission Rewards:

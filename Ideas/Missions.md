@@ -33,12 +33,11 @@
 
 ### x = 1
 
-- [x] (1,1) / Jewish Brothers / The Israeli are our only remaining brothers in faith.
-It is our duty to secure an alliance with them
+- [x] (1,1) / Jewish Brothers / The Israeli are our only remaining brothers in faith. It is our duty to secure an alliance with them
   - Alliance with Israel
   - Adm +100; perm claims on 298 + 223; Modifier "Jewish Reputation" till end: +1 Dip Rep, Missionary Strength +1%
 
-- [ ] (1,2) / Jewish monuments / Foreign people have built great buildings that are rather lacking. It is our duty to conquer teir lands and improve these building with our skill / (1,1)
+- [x] (1,2) / Jewish Monuments / Foreign people have built great buildings that are rather lacking. It is our duty to conquer teir lands and improve these building with our skill / (1,1)
   - have Ait Benhaddou (4568) and Alhambra (223) on lvl 3
   - Prestige +50; Adm/Dip/Mil +100; Modifier "Monument Holder" till end: Liberty Desire in Subjects -10%, Adm Eff -5%, Caravan Power +5%, Global Trade Power +1%
 
@@ -62,21 +61,21 @@ It is our duty to secure an alliance with them
   - own core + convert at least 5 provinces in France region
   - perms claims on France region
 
-- [ ] (3,3) / Decimation of France / The French have always been a nuisance. They may pose a threat to our interest and therefore we must assimilate them preemptively
+- [ ] (3,3) / Decimation of France / The French have always been a nuisance. They may pose a threat to our interest and therefore we must assimilate them preemptively / (3,2)
   - own core + convert all provinces in France region; FRA doesn't exist
   - Prestige +50; Adm/Dip/Mil +100; Modifier "French Assimilation" till End: War Score vs Other Religions -5%, Max Absolutim +5, Missonary Strenght +0.5%, Local Dev cost -5%, Disciline +2.5%, morale +10%, infantry + cannon combat ability +5%
 
-- [ ] (3,4) / Iberian Colonial Powers / Portugal and Castille seem to want to colonize the New World. Their claims are unjust as they are Christians. The New World must not be tainted by these Christian heathens
+- [ ] (3,4) / Colonial Powers of Iberia / Portugal and Castille seem to want to colonize the New World. Their claims are unjust as they are Christians. The New World must not be tainted by these Christian heathens
   - own at least 5 provinces in Iberia region
   - perms claims on Iberia region
 
-- [ ] (3,5) / Extermination of Iberia / We must destroy these heathens
+- [ ] (3,5) / Extermination of Iberia / We must destroy these heathens / (3,4)
   - own core + convert all of Iberia region
   - Modifier "Iberian Legacy" till end: Settler +20, Settler chance +10%, trade steering +10%, missionary strength +1%
 
 ### x = 4
 
-- [ ] (4,1) / Local Trade Majority / We are skilled traders. To prove that we must be a dominant force in the local trade.
+- [ ] (4,1) / Local Trade Majority / We are skilled traders. To prove that we must be a dominant force in the local trade
   - have more than 50% Trade Power in English Channel
   - perm claims on all areas of English Channel
 
