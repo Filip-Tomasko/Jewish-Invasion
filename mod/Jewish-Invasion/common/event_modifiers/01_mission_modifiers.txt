@@ -10,8 +10,8 @@ xxa_1_1_mod = {
 }
 
 xxa_1_2_mod {
-	reduced_liberty_desire = -10
-	administrative_efficiency = -0.05
+	reduced_liberty_desire = 10
+	administrative_efficiency = 0.05
 	caravan_power = 0.05
 	global_trade_power = 0.01
 }

@@ -39,7 +39,7 @@ xxa_missions_1 = {
 				province_id = 223  # Alhambra
 				province_id = 4568  # Ait Benhaddou
 			}
-			NOT = { owned_by = ROOT }
+			# NOT = { owned_by = ROOT }
 		}
 
 		trigger = {
@@ -86,7 +86,7 @@ xxa_missions_2 = {
 	has_country_shield = yes
 
 	xxa_2_1 = {
-		icon = mission_alliances
+		icon = mission_unite_home_region
 		required_missions = {  } #None
 		position = 1
 
@@ -140,7 +140,7 @@ xxa_missions_2 = {
 		}
 	}
 	xxa_2_2 = {
-		icon = mission_empire
+		icon = mission_unite_home_region
 		required_missions = {xxa_2_1 xxa_3_1}
 		position = 2
 
@@ -148,6 +148,7 @@ xxa_missions_2 = {
 			OR = {
 				region = british_isles_region
 			}
+			NOT = {religion = jewish }
 		}
 
 		trigger = {
@@ -157,6 +158,7 @@ xxa_missions_2 = {
 				owner = {
 					religion = jewish
 				}
+				has_owner_religion = yes
 			}
 		}
 		effect = {
@@ -184,7 +186,7 @@ xxa_missions_3 = {
 	has_country_shield = yes
 
 	xxa_3_1 = {
-		icon = mission_alliances
+		icon = mission_unite_home_region
 		required_missions = {  } #None
 		position = 1
 
