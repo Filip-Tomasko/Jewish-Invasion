@@ -75,13 +75,13 @@
 
 ### x = 4
 
-- [ ] (4,1) / Local Trade Majority / We are skilled traders. To prove that we must be a dominant force in the local trade
+- [x] (4,1) / Local Trade Majority / We are skilled traders. To prove that we must be a dominant force in the local trade
   - have more than 50% Trade Power in English Channel
   - perm claims on all areas of English Channel
 
-- [ ] (4,2) / Local Trade Supremacy / It it our duty to control the local trade / (4,1)
+- [x] (4,2) / Local Trade Supremacy / It it our duty to control the local trade / (4,1)
   - have more than 80% Trade Power in English Channel
-  - Modifier "Local Trade Supremacy" till end: +10% Trade Efficiency, +10% Trade Steering
+  - Modifier "Local Trade Supremacy" till end: +10% Trade Efficiency, +10% Trade Steering, Global Trade Power +5%
 
 - [ ] (4,3) / The Spice Must Flow / Indochina is incredibly valuable. Many goods sold in our home are produced here. We must control the centers of production / (5,2)
   - have more than 50% Trade Power in The Moluccas and Malacca
