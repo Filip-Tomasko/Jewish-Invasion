@@ -39,7 +39,21 @@ xxa_missions_1 = {
 				province_id = 223  # Alhambra
 				province_id = 4568  # Ait Benhaddou
 			}
-			# NOT = { owned_by = ROOT }
+			NOT = {
+				AND = {
+					owned_by = ROOT
+					OR = {
+						has_great_project = {
+							type = alhambra
+							tier = 3
+						}
+						has_great_project = {
+							type = ait_benhaddou
+							tier = 3
+						}
+					}
+				}
+			}
 		}
 
 		trigger = {
@@ -140,7 +154,7 @@ xxa_missions_2 = {
 		}
 	}
 	xxa_2_2 = {
-		icon = mission_unite_home_region
+		icon = defeat_the_english
 		required_missions = {xxa_2_1 xxa_3_1}
 		position = 2
 
@@ -186,7 +200,7 @@ xxa_missions_3 = {
 	has_country_shield = yes
 
 	xxa_3_1 = {
-		icon = mission_unite_home_region
+		icon = mission_conquer_50_development
 		required_missions = {  } #None
 		position = 1
 
