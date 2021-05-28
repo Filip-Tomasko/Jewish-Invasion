@@ -45,4 +45,3 @@ historical_friend = XXA  # Nay Jerusalem
 		mil = 5
 	}
 }
-

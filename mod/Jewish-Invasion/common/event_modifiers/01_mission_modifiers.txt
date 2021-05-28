@@ -22,7 +22,14 @@ xxa_2_2_mod = {
 }
 
 xxa_3_3_mod {
-
+	warscore_cost_vs_other_religion = -0.05
+	max_absolutism = 5
+	global_missionary_strength = 0.005
+	development_cost = -0.05
+	discipline = 0.025
+	land_morale = 0.1
+	infantry_power = 0.05
+	artillery_power = 0.05
 }
 
 xxa_3_5_mod {

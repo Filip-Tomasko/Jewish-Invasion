@@ -169,17 +169,20 @@ xxa_missions_2 = {
 			OR = {
 				region = british_isles_region
 			}
-			NOT = {religion = jewish }
+			NOT = {
+				AND = {
+					owned_by = ROOT
+					religion = jewish
+				}
+			}
 		}
 
 		trigger = {
 			# https://forum.paradoxplaza.com/forum/threads/euiv-modding-quick-questions-thread.708855/post-27566221
 			british_isles_region = {
 				type = all
-				owner = {
-					religion = jewish
-				}
-				has_owner_religion = yes
+				owned_by = ROOT
+				religion = jewish
 			}
 		}
 		effect = {
@@ -305,6 +308,82 @@ xxa_missions_3 = {
 				}
 				add_permanent_claim = ROOT
 			}
+		}
+	}
+
+	xxa_3_2 = {
+		icon = mission_rb_take_gibraltar
+		required_missions = {  } #None
+		position = 2
+
+		provinces_to_highlight = {
+			OR = {
+				region = france_region
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+
+		trigger = {
+			calc_true_if = {
+				amount = 5
+				all_province = {
+					AND = {
+						region = france_region
+						owned_by = ROOT
+						religion = jewish
+					}
+				}
+			}
+
+		}
+
+		effect = {
+			france_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	xxa_3_3 = {
+		icon = mission_monarch_in_throne_room
+		required_missions = { xxa_3_2 }
+		position = 3
+
+		provinces_to_highlight = {
+			OR = {
+				region = france_region
+			}
+			NOT = {
+				AND = {
+					country_or_non_sovereign_subject_holds = ROOT
+					religion = jewish
+				}
+			}
+		}
+
+		trigger = {
+			france_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+				religion = jewish
+			}
+			NOT = {exists = FRA }
+		}
+
+		effect = {
+			add_prestige = 50
+			add_adm_power = 100
+			add_dip_power = 100
+			add_mil_power = 100
+			add_country_modifier = {
+				name = "xxa_3_3_mod"
+				duration = -1
+			}
+
 		}
 	}
 }

@@ -57,13 +57,13 @@
   - own core all provinces in Wessex area
   - perm claims on all English and Scottish areas
 
-- [ ] (3,2) / The French Problem / The French are too Christian for their own good. We have to take what is rightfully ours
+- [x] (3,2) / The French Problem / The French are too Christian for their own good. We have to take what is rightfully ours
   - own core + convert at least 5 provinces in France region
   - perms claims on France region
 
-- [ ] (3,3) / Decimation of France / The French have always been a nuisance. They may pose a threat to our interest and therefore we must assimilate them preemptively / (3,2)
+- [x] (3,3) / Decimation of France / The French have always been a nuisance. They may pose a threat to our interest and therefore we must assimilate them preemptively / (3,2)
   - own core + convert all provinces in France region; FRA doesn't exist
-  - Prestige +50; Adm/Dip/Mil +100; Modifier "French Assimilation" till End: War Score vs Other Religions -5%, Max Absolutim +5, Missonary Strenght +0.5%, Local Dev cost -5%, Disciline +2.5%, morale +10%, infantry + cannon combat ability +5%
+  - Prestige +50; Adm/Dip/Mil +100; Modifier "French Assimilation" till End: War Score vs Other Religions -5%, Max Absolutim +5, Missonary Strength +0.5%, Dev cost -5%, Disciline +2.5%, morale +10%, infantry + cannon combat ability +5%
 
 - [ ] (3,4) / Colonial Powers of Iberia / Portugal and Castille seem to want to colonize the New World. Their claims are unjust as they are Christians. The New World must not be tainted by these Christian heathens
   - own at least 5 provinces in Iberia region
