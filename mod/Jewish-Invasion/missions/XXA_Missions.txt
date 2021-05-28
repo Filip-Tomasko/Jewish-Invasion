@@ -386,4 +386,79 @@ xxa_missions_3 = {
 
 		}
 	}
+
+	xxa_3_4 = {
+		icon = mission_italian_condottiere
+		required_missions = {  } #None
+		position = 4
+
+		provinces_to_highlight = {
+			OR = {
+				region = iberia_region
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+
+		trigger = {
+			calc_true_if = {
+				amount = 5
+				all_province = {
+					AND = {
+						region = iberia_region
+						owned_by = ROOT
+						religion = jewish
+					}
+				}
+			}
+
+		}
+
+		effect = {
+			iberia_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	xxa_3_5 = {
+		icon = the_spanish_succession
+		required_missions = { xxa_3_4 }
+		position = 5
+
+		provinces_to_highlight = {
+			OR = {
+				region = iberia_region
+			}
+			NOT = {
+				AND = {
+					country_or_non_sovereign_subject_holds = ROOT
+					religion = jewish
+				}
+			}
+		}
+
+		trigger = {
+			iberia_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+				religion = jewish
+			}
+		}
+
+		effect = {
+			add_prestige = 25
+			add_adm_power = 50
+			add_dip_power = 50
+			add_mil_power = 50
+			add_country_modifier = {
+				name = "xxa_3_5_mod"
+				duration = -1
+			}
+
+		}
+	}
 }

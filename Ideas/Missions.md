@@ -65,13 +65,13 @@
   - own core + convert all provinces in France region; FRA doesn't exist
   - Prestige +50; Adm/Dip/Mil +100; Modifier "French Assimilation" till End: War Score vs Other Religions -5%, Max Absolutim +5, Missonary Strength +0.5%, Dev cost -5%, Disciline +2.5%, morale +10%, infantry + cannon combat ability +5%
 
-- [ ] (3,4) / Colonial Powers of Iberia / Portugal and Castille seem to want to colonize the New World. Their claims are unjust as they are Christians. The New World must not be tainted by these Christian heathens
-  - own at least 5 provinces in Iberia region
+- [x] (3,4) / Colonial Powers of Iberia / Portugal and Castille seem to want to colonize the New World. Their claims are unjust as they are Christians. The New World must not be tainted by these Christian heathens
+  - own at least 5 provinces in Iberia region + convert
   - perms claims on Iberia region
 
-- [ ] (3,5) / Extermination of Iberia / We must destroy these heathens / (3,4)
+- [x] (3,5) / Extermination of Iberia / We must destroy these heathens / (3,4)
   - own core + convert all of Iberia region
-  - Modifier "Iberian Legacy" till end: Settler +20, Settler chance +10%, trade steering +10%, missionary strength +1%
+  - Prestige +25; Adm/Dip/Mil +50; Modifier "Iberian Legacy" till end: Settler +20, Settler chance +10%, trade steering +10%, missionary strength +1%
 
 ### x = 4
 
