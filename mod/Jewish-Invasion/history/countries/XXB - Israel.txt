@@ -1,0 +1,48 @@
+government = monarchy
+add_government_reform = prussian_monarchy
+government_rank = 3
+primary_culture = hebrew
+religion = jewish
+technology_group = western
+capital = 254 # Poznan
+add_army_professionalism = 0.05
+historical_friend = XXA  # Nay Jerusalem
+
+1444.1.1 = {
+	monarch = {
+		name = "Daniel"
+		dynasty = "von David"
+		birth_date = 1425.12.30
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = expansionist_personality
+	add_ruler_personality = scholar_personality
+
+	queen = {
+		name = "Pff"
+		dynasty = "von David"
+		female = yes
+		country_of_origin = "XXA"
+		birth_date = 1430.1.19
+		death_date = 1716.3.1
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+
+	heir = {
+		name = "Mister"
+		monarch_name = "Mister"
+		dynasty = "von David"
+		birth_date = 1443.4.20
+		death_date = 1716.3.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+

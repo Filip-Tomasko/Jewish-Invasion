@@ -6,6 +6,10 @@ religion = jewish
 technology_group = western
 capital = 236 # London
 add_army_professionalism = 0.05
+historical_friend = FRA  # France
+historical_friend = HAB  # Austria
+historical_friend = ARA  # Aragon
+historical_friend = XXB  # Israel
 
 1444.1.1 = {
 	monarch = {
@@ -19,14 +23,12 @@ add_army_professionalism = 0.05
 	clear_scripted_personalities = yes
 	add_ruler_personality = expansionist_personality
 	add_ruler_personality = scholar_personality
-}
 
-1444.1.2 = {
 	queen = {
 		name = "Ruth"
 		dynasty = "von David"
 		female = yes
-		country_of_origin = "OPL"
+		country_of_origin = "XXB"
 		birth_date = 1430.1.19
 		death_date = 1716.3.1
 		adm = 6

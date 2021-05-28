@@ -1,6 +1,6 @@
 # JEWISH INVASION
 XXA = "countries/NayJerusalem.txt"
-#XXB = "countries/Israel.txt"
+XXB = "countries/Israel.txt"
 
 # Special countries..
 REB = "countries/Rebels.txt"
