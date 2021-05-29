@@ -97,11 +97,11 @@
 
 ### x = 5
 
-- [ ] (5,1) / Jewish Colonization / We must spread our culture and religion to the native peoples of other continents
+- [x] (5,1) / Jewish Colonization / We must spread our culture and religion to the native peoples of other continents
   - have at least own colonial nation
   - Modifier "Manifest Destiny" till end: +20 Global Settler Increase, +10% Settler Chance, +10% Colonial Range, -50% Native Uprising Chance, +50% Native Assimilation, Global Tarrifs +10%, Missionary Strength +1%
 
-- [ ] (5,2) / West African Trade / West Africa is the gateway to Europe. It is our duty to control West African trade
+- [x] (5,2) / West African Trade / West Africa is the gateway to Europe. It is our duty to control West African trade
   - more than 50% Trade Power in Ivory Coast, Cape of Good Hope
   - perm claims on Sahel, Niger, Guinea, Kongo, South Africa regions
 
