@@ -107,16 +107,16 @@
   - more than 50% Trade Power in Ivory Coast, Cape of Good Hope
   - perm claims on Sahel, Niger, Guinea, Kongo, South Africa regions
 
-- [ ] (5,3) / East African Trade / East Africa is another gateway to Europe. To prevent trade from being routed to the Mediterranean we must control the Gulf of Aden / (5,2)
+- [x] (5,3) / East African Trade / East Africa is another gateway to Europe. To prevent trade from being routed to the Mediterranean we must control the Gulf of Aden / (5,2)
   - more than 50% Trade Power in Gulf of Aden
   - perm claims on East Africa, Central Africa, Horn of Africa, Arabia regions
 
-- [ ] (5,4) / The Gateway to India / The Indian subcontinent is incredibly vast. We must see what it's like for ourselves
-  - own at least 5 provinces in either Coromandel, Deccan, Bengal or Western India regions
-  - perms claims on Coromandel, Deccan, Bengal, Western India, Hindustan and Burma regions; Modifier "Indian Riches" till end: -10% core-creation cost, +1% missionary strength
+- [x] (5,4) / The Gateway to India / The Indian subcontinent is incredibly vast. We must see what it's like for ourselves
+  - own at least 5 provinces in either Coromandel, Deccan, Bengal or Western India regions and convert them
+  - perms claims on Coromandel, Deccan, Bengal, Western India, Hindustan and Burma regions; Modifier "Indian Riches" till end: -10% core-creation cost, +1% missionary strength, dev cost -10%, caravan power +10%, trade steering +10%
 
-- [ ] (5,5) / Indian Dominance / After witnessing the riches of Indian soil we have to conquer the lands to administer them properly
+- [x] (5,5) / Indian Dominance / After witnessing the riches of Indian soil we have to conquer the lands to administer them properly / (5,4)
   - +50% trade power in all Indian trade nodes; all provinces in these (see (5,4) claims) regions have to be Jewish (don't have to be owned by me)
-  - +100 prestige; +3 stability; +200 adm/dip/mil; Modifier "Indian Dominance" till end: Domestic trade power +20%, lcoal dev cost -20%
+  - +100 prestige; +3 stability; +200 adm/dip/mil; Modifier "Indian Dominance" till end: Domestic trade power +20%,  dev cost -20%, global trade power +10%, goods produced +10%
 
 ## Daniel

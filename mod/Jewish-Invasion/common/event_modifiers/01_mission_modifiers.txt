@@ -82,11 +82,18 @@ xxa_5_1_mod {
 }
 
 xxa_5_4_mod {
-
+	core_creation = -0.1
+	global_missionary_strength = 0.01
+	development_cost = -0.1
+	caravan_power = 0.1
+	trade_steering = 0.1
 }
 
 xxa_5_5_mod {
-
+	global_own_trade_power = 0.2
+	global_trade_power = 0.1
+	development_cost = -0.2
+	global_trade_goods_size_modifier = 0.1
 }
 
 #Generic Military Mission Rewards:

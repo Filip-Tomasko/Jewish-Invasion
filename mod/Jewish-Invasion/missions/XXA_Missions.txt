@@ -350,7 +350,12 @@ xxa_missions_3 = {
 			OR = {
 				region = france_region
 			}
-			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			NOT = {
+				AND = {
+					owned_by = ROOT
+					religion = jewish
+				}
+			 }
 		}
 
 		trigger = {
@@ -426,7 +431,12 @@ xxa_missions_3 = {
 			OR = {
 				region = iberia_region
 			}
-			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			NOT = {
+				AND = {
+					owned_by = ROOT
+					religion = jewish
+				}
+			 }
 		}
 
 		trigger = {
@@ -1134,6 +1144,205 @@ xxa_missions_5 = {
 				}
 				add_permanent_claim = ROOT
 			}
+		}
+	}
+	xxa_5_4 = {
+		icon = mission_portuguese_malabar
+		required_missions = {  } #None
+		position = 4
+
+		provinces_to_highlight = {
+			OR = {
+				region = coromandel_region
+				region = deccan_region
+				region = bengal_region
+				region = west_india_region
+				region = hindusthan_region
+				region = burma_region
+			}
+			NOT = {
+				AND = {
+					owned_by = ROOT
+					religion = jewish
+				}
+			 }
+		}
+
+		trigger = {
+			calc_true_if = {
+				amount = 5
+				all_province = {
+					AND = {
+						OR = {
+							region = coromandel_region
+							region = deccan_region
+							region = bengal_region
+							region = west_india_region
+							region = hindusthan_region
+							region = burma_region
+						}
+						owned_by = ROOT
+						religion = jewish
+					}
+				}
+			}
+
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = xxa_5_4_mod
+				duration = -1
+			}
+
+			coromandel_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			deccan_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			bengal_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			west_india_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			hindusthan_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			burma_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	xxa_5_5 = {
+		icon = mission_indian_trade_company
+		required_missions = { xxa_5_4 }
+		position = 4
+
+		provinces_to_highlight = {
+			OR = {
+				region = coromandel_region
+				region = deccan_region
+				region = bengal_region
+				region = west_india_region
+				region = hindusthan_region
+				region = burma_region
+			}
+			NOT = { religion = jewish }
+		}
+
+		trigger = {
+			coromandel_region = {
+				type = all
+				religion = jewish
+			}
+			deccan_region = {
+				type = all
+				religion = jewish
+			}
+			bengal_region = {
+				type = all
+				religion = jewish
+			}
+			west_india_region = {
+				type = all
+				religion = jewish
+			}
+			hindusthan_region = {
+				type = all
+				religion = jewish
+			}
+			burma_region = {
+				type = all
+				religion = jewish
+			}
+
+			custom_trigger_tooltip = {
+				tooltip = xxa_5_5_tooltip_1
+				# Coromandel
+				534 = {
+					trade_share = {
+						country = ROOT
+						share = 51
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = xxa_5_5_tooltip_2
+				# Bengal
+				2043 = {
+					trade_share = {
+						country = ROOT
+						share = 51
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = xxa_5_5_tooltip_3
+				# Deccan
+				1948 = {
+					trade_share = {
+						country = ROOT
+						share = 51
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = xxa_5_5_tooltip_4
+				# Doab
+				2063 = {
+					trade_share = {
+						country = ROOT
+						share = 51
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = xxa_5_5_tooltip_5
+				# Gujarat
+				4506 = {
+					trade_share = {
+						country = ROOT
+						share = 51
+					}
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = xxa_5_5_mod
+				duration = -1
+			}
+			add_prestige = 100
+			add_stability = 3
+			add_adm_power = 400
+			add_dip_power = 400
+			add_mil_power = 400
 		}
 	}
 }

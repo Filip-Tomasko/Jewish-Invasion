@@ -99,6 +99,11 @@
   xxa_5_5_title: "Indian Dominance"
   xxa_5_5_desc: "After witnessing the riches of Indian soil we have to conquer the lands to administer them properly"
   xxa_5_5_mod: "Indian Dominance"
+  xxa_5_5_tooltip_1: "Have at least 51% Trade Power in Coromandel"
+  xxa_5_5_tooltip_2: "Have at least 51% Trade Power in Bengal"
+  xxa_5_5_tooltip_3: "Have at least 51% Trade Power in Deccan"
+  xxa_5_5_tooltip_4: "Have at least 51% Trade Power in Doab"
+  xxa_5_5_tooltip_5: "Have at least 51% Trade Power in Gujarat"
 
   # Israel
   XXB: "Israel"
