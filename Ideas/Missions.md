@@ -1,5 +1,7 @@
 # Mission Ideas
 
+<!-- Just discovered someone made a tool for that - <https://steamcommunity.com/sharedfiles/filedetails/?id=2408076990> - 2021-05-29 -->
+
 ## Filip
 
 ### Random ideas

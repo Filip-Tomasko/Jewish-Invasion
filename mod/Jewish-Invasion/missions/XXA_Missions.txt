@@ -3,6 +3,9 @@
 # https://eu4.paradoxwikis.com/Commands
 # https://eu4.paradoxwikis.com/List_of_common_mission_triggers
 
+# 2021-05-29: just discovered someone made a nice tool
+# https://steamcommunity.com/sharedfiles/filedetails/?id=2408076990
+
 # xxa_missions_1 = {
 # 	slot = 1
 # 	generic = no
