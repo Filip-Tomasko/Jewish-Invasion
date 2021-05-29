@@ -73,7 +73,7 @@
 
 - [x] (3,5) / Extermination of Iberia / We must destroy these heathens / (3,4)
   - own core + convert all of Iberia region
-  - Prestige +25; Adm/Dip/Mil +50; Modifier "Iberian Legacy" till end: Settler +20, Settler chance +10%, trade steering +10%, missionary strength +1%
+  - Prestige +25; Adm/Dip/Mil +50; Modifier "Iberian Legacy" till end: Settler +20, Settler chance +10%, trade steering +10%, missionary strength +1%; perm claims on Maghreb region
 
 ### x = 4
 
@@ -85,17 +85,17 @@
   - have more than 80% Trade Power in English Channel
   - Modifier "Local Trade Supremacy" till end: +10% Trade Efficiency, +10% Trade Steering, Global Trade Power +5%
 
-- [ ] (4,3) / The Spice Must Flow / Indochina is incredibly valuable. Many goods sold in our home are produced here. We must control the centers of production / (5,2)
+- [x] (4,3) / The Spice Must Flow / Indochina is incredibly valuable. Many goods sold in our home are produced here. We must control the centers of production / (5,2)
   - have more than 50% Trade Power in The Moluccas and Malacca
-  - perms claims on Malaya, Indonesia, Moluccas regions; Modifier "Jewish Means of Production" in Spice Islands and Moluccas areas till end: +Local Goods Produced Modifier +10%, Local Goods Produced +2, Local dev cost -20%
+  - perms claims on Malaya, Indonesia, Moluccas regions; Modifier "Jewish Means of Production" in Spice Islands and Moluccas areas till end: +Local Goods Produced Modifier +10%, Local Goods Produced +2, Local dev cost -20%, province_trade_power_modifier +20%, trade_value_modifier +20%
 
-- [ ] (4,4) / Pacific Trade / The Pacfic is where it all starts. We must control it / (4,3)
-  - have colonial nation in Australia; more than 50% trade power in the Philippines, Australia and Polynesian Triangle
-  - perms claims on Japan, Korea, Manchura, Mongolia, North China, South China, Xinan, Tibet, Indochina regions; Modifier "Pacific Trade" till end: Adm Eff -5%, Missionary Strength +1%
+- [x] (4,4) / Pacific Trade / The Pacfic is where it all starts. We must control it / (4,3)
+  - have colonial nation in Australia; more than 50% trade power in the Philippines and Polynesian Triangle
+  - perms claims on Japan, Korea, Manchuria, Mongolia, North China, South China, Xinan, Tibet, Indochina regions; Modifier "Pacific Trade" till end: Adm Eff 5%, Missionary Strength +1%, global_trade_power +10%, global_trade_goods_size_modifier +10%, placed_merchant_power +3
 
-- [ ] (4,5) / East Asian Dominance / We must free the citizens of eastern Asia from their oppressive regims by conquering their lands and teaching them about the one and only true religion / (4,4) / mission_to_china icon
+- [x] (4,5) / East Asian Dominance / We must free the citizens of eastern Asia from their oppressive regims by conquering their lands and teaching them about the one and only true religion / (4,4) / mission_to_china icon
   - more than 50% trade power in Nippon, Girin, Beijing, Hangzhou, Canton, Xi'an, Chengdu, Lhasa, Siam; all provinces in these (see (4,4) claims) regions have to be Jewish (don't have to be owned by me)
-  - +100 Prestige; +3 Stability; +400 Adm/Dip/Mil; Modifier "East Asian Dominance" till end: Missionary Strength +2%, local dev cost -20%, core-creation cost -20%, cult conv cost -20%, trade efficiency +20%, trade steering +20%, national unrest -2
+  - +100 Prestige; +3 Stability; +400 Adm/Dip/Mil; Modifier "East Asian Dominance" till end: Missionary Strength +2%, dev cost -20%, core-creation cost -20%, cult conv cost -20%, trade efficiency +20%, trade steering +20%, national unrest -2
 
 ### x = 5
 

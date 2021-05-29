@@ -46,15 +46,29 @@ xxa_4_2_mod {
 }
 
 xxa_4_3_mod {
-
+	trade_goods_size_modifier = 0.1
+	trade_goods_size = 2
+	province_trade_power_modifier = 0.2
+	trade_value_modifier = 0.2
+	local_development_cost = -0.2
 }
 
 xxa_4_4_mod {
-
+	administrative_efficiency = 0.05
+	global_missionary_strength = 0.01
+	global_trade_power = 0.1
+	global_trade_goods_size_modifier = 0.1
+	placed_merchant_power = 3
 }
 
 xxa_4_5_mod {
-
+	global_missionary_strength = 0.02
+	development_cost = -0.2
+	core_creation = -0.2
+	culture_conversion_cost = -0.2
+	trade_efficiency = 0.2
+	trade_steering = 0.2
+	global_unrest = -2
 }
 
 xxa_5_1_mod {

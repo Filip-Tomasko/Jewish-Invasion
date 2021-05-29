@@ -488,7 +488,13 @@ xxa_missions_3 = {
 				name = "xxa_3_5_mod"
 				duration = -1
 			}
-
+			maghreb_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
 		}
 	}
 }
@@ -644,6 +650,344 @@ xxa_missions_4 = {
 				name = "xxa_4_2_mod"
 				duration = -1
 			}
+		}
+	}
+
+	xxa_4_3 = {
+		icon = mission_portuguese_malacca
+		required_missions = { xxa_5_2 }
+		position = 3
+
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = xxa_4_3_tooltip_1
+				# Flores Sea -> The Moluccas
+				1357 = {
+					trade_share = {
+						country = ROOT
+						share = 51
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = xxa_4_3_tooltip_2
+				# Straits of Johor -> Malacca
+				1361 = {
+					trade_share = {
+						country = ROOT
+						share = 51
+					}
+				}
+			}
+		}
+		effect = {
+			malaya_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			indonesia_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			moluccas_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+
+			spice_islands_area = {
+				add_province_modifier = {
+					name = "xxa_4_3_mod"
+					duration = -1
+				}
+			}
+			molluca_area = {
+				add_province_modifier = {
+					name = "xxa_4_3_mod"
+					duration = -1
+				}
+			}
+		}
+	}
+
+	xxa_4_4 = {
+		icon = mission_junk_boat
+		required_missions = { xxa_4_3 }
+		position = 4
+
+		provinces_to_highlight = {
+			colonial_region = colonial_australia
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = xxa_4_4_tooltip_1
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					value = 5 # how many provinces should they own in this colonial region?
+					colonial_region = colonial_australia
+					is_city = yes
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = xxa_4_4_tooltip_2
+				# Visayan Sea -> Philippines
+				1397 = {
+					trade_share = {
+						country = ROOT
+						share = 51
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = xxa_4_4_tooltip_3
+				# Oahu -> Polynesian Triangle
+				4935 = {
+					trade_share = {
+						country = ROOT
+						share = 51
+					}
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = xxa_4_4_mod
+				duration = -1
+			}
+			japan_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			korea_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			manchuria_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			mongolia_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			north_china_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			south_china_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			xinan_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			tibet_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			indo_china_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	xxa_4_5 = {
+		icon = mission_to_china
+		required_missions = { xxa_4_4 }
+		position = 4
+
+		provinces_to_highlight = {
+			OR = {
+				region = japan_region
+				region = korea_region
+				region = manchuria_region
+				region = mongolia_region
+				region = north_china_region
+				region = south_china_region
+				region = xinan_region
+				region = tibet_region
+				region = indo_china_region
+			}
+			NOT = { religion = jewish }
+		}
+
+		trigger = {
+			japan_region = {
+				type = all
+				religion = jewish
+			}
+			korea_region = {
+				type = all
+				religion = jewish
+			}
+			manchuria_region = {
+				type = all
+				religion = jewish
+			}
+			mongolia_region = {
+				type = all
+				religion = jewish
+			}
+			north_china_region = {
+				type = all
+				religion = jewish
+			}
+			south_china_region = {
+				type = all
+				religion = jewish
+			}
+			xinan_region = {
+				type = all
+				religion = jewish
+			}
+			tibet_region = {
+				type = all
+				religion = jewish
+			}
+			indo_china_region = {
+				type = all
+				religion = jewish
+			}
+
+			custom_trigger_tooltip = {
+				tooltip = xxa_4_5_tooltip_1
+				# Nippon
+				1021 = {
+					trade_share = {
+						country = ROOT
+						share = 51
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = xxa_4_5_tooltip_2
+				# Girin
+				2106 = {
+					trade_share = {
+						country = ROOT
+						share = 51
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = xxa_4_5_tooltip_3
+				# Beijing
+				1816 = {
+					trade_share = {
+						country = ROOT
+						share = 51
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = xxa_4_5_tooltip_4
+				# Hangzhou
+				684 = {
+					trade_share = {
+						country = ROOT
+						share = 51
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = xxa_4_5_tooltip_5
+				# Canton
+				667 = {
+					trade_share = {
+						country = ROOT
+						share = 51
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = xxa_4_5_tooltip_6
+				# Xi'an
+				700 = {
+					trade_share = {
+						country = ROOT
+						share = 51
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = xxa_4_5_tooltip_7
+				# Chengdu
+				679 = {
+					trade_share = {
+						country = ROOT
+						share = 51
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = xxa_4_5_tooltip_8
+				# Lhasa
+				677 = {
+					trade_share = {
+						country = ROOT
+						share = 51
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = xxa_4_5_tooltip_9
+				# Siam
+				600 = {
+					trade_share = {
+						country = ROOT
+						share = 51
+					}
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = xxa_4_5_mod
+				duration = -1
+			}
+			add_prestige = 100
+			add_stability = 3
+			add_adm_power = 400
+			add_dip_power = 400
+			add_mil_power = 400
 		}
 	}
 }
