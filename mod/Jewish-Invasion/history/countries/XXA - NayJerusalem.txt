@@ -31,9 +31,9 @@ historical_friend = XXB  # Israel
 		country_of_origin = "XXB"
 		birth_date = 1430.1.19
 		death_date = 1716.3.1
-		adm = 6
-		dip = 6
-		mil = 6
+		adm = 1
+		dip = 0
+		mil = 0
 	}
 }
 
@@ -44,9 +44,24 @@ historical_friend = XXB  # Israel
 		dynasty = "von David"
 		birth_date = 1444.4.20
 		death_date = 1716.3.1
-		claim = 95
-		adm = 4
-		dip = 4
-		mil = 5
+		claim = 100
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+	add_heir_personality = expansionist_personality
+	add_heir_personality = scholar_personality
+	add_heir_personality = free_thinker_personality
+}
+
+1444.5.4 = {
+	leader = {
+		name = "Superior Explorer"
+		type = explorer
+		fire = 0
+		shock = 0
+		siege = 0
+		manuever = 6
+		death_date = 1716.3.1
 	}
 }

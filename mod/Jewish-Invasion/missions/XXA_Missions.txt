@@ -683,16 +683,19 @@ xxa_missions_5 = {
 
 		trigger = {
 			custom_trigger_tooltip = {
-				tooltip = xxa_5_2_tooltip
-				# Cape -> Cape of Good Hope
-				1171 = {
+				tooltip = xxa_5_2_tooltip_1
+				# Gold Coast -> Ivory Coast
+				1139 = {
 					trade_share = {
 						country = ROOT
 						share = 51
 					}
 				}
-				# Gold Coast -> Ivory Coast
-				1139 = {
+			}
+			custom_trigger_tooltip = {
+				tooltip = xxa_5_2_tooltip_2
+				# Cape -> Cape of Good Hope
+				1171 = {
 					trade_share = {
 						country = ROOT
 						share = 51
