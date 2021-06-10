@@ -4,6 +4,11 @@
 
 **Jewish Invasion** is a Europa Universalis IV modification. It adds two alternative history nations: *Nay Jerusalem* and *Israel*. It's meant to be played by two players in multiplayer, preferably in coop. The goal is to conquer the world by spreading the religion of love!
 
+## Subpages
+
+- [Ideas for missions](ideas/Missions.md)
+- [Ideas for events](ideas/Events.md)
+
 ## Links
 
 - <https://forum.paradoxplaza.com/forum/threads/eu-iv-user-mod-megathread-help-and-info-threads.878631/>

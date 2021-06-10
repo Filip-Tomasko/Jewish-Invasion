@@ -10,6 +10,7 @@
   - same for 223 (Alhambra)
 - [ ] triggered if every province on earth is Jewish
   - -> prestige +200, stability +6, adm/dip/mil +10,000, tolerance of heathens -100
+- [ ] mission for a Jewish nation (XXA / XXB) to have tier 3 monument in Jerusalem (1.31.5)
 - [x] triggered if every province in Britain region is Hebrew
   - -> prestige +50, adm, dip,mil +100, tolerance of heathens -1
 - [x] if >80% Trade Power in English Channel
