@@ -6,8 +6,8 @@
 
 ## Subpages
 
-- [Ideas for missions](ideas/Missions.md)
-- [Ideas for events](ideas/Events.md)
+- [Ideas for missions](Ideas/Missions.md)
+- [Ideas for events](Ideas/Events.md)
 
 ## Links
 
