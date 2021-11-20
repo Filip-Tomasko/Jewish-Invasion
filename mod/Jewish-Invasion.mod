@@ -7,5 +7,5 @@ tags={
 	"Religion"
 }
 name="Jewish-Invasion"
-supported_version="1.31.3"
+supported_version="1.32.1"
 path="mod/Jewish-Invasion"
