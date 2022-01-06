@@ -11,6 +11,7 @@
 
 ## Links
 
+- [Run files (testing) inside console in EU4](https://reddit.com/r/EU4mods/comments/rwvogc/is_there_a_sandbox_mod/hrf3set/)
 - <https://forum.paradoxplaza.com/forum/threads/eu-iv-user-mod-megathread-help-and-info-threads.878631/>
 - <https://forum.paradoxplaza.com/forum/index.php?threads/master-modding-guides-list.729388/>
 - <https://eu4.paradoxwikis.com/Modding>
